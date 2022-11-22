@@ -49,6 +49,8 @@ body {
   } */
   /* try display block + position relative media query unset keyword right:0  set hight, width100% */
 
+
+ 
   @media screen and (max-width:1000px){
   #header{
     position: relative;
@@ -63,6 +65,9 @@ body {
   }
   #navbar li{
       display: inline-block;
+  }
+  .slider{
+    max-width: 100%;
   }
   }
   #header .profile img {
