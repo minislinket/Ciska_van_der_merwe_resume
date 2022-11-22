@@ -1,7 +1,9 @@
 /* /* --------------------------------------------------------------
 # General
 -------------------------------------------------------------- */
-
+html{
+  scroll-behavior: smooth;
+}
 body {
     font-family: "Open Sans", sans-serif;
     color: #272829;
@@ -65,6 +67,9 @@ body {
   }
   #navbar li{
       display: inline-block;
+      color: white;
+      font-size: x-large;
+      font-weight: 600;
   }
   .slider{
     max-width: 100%;
